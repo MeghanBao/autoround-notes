@@ -2,7 +2,7 @@
 
 > **Intel 开源 LLM 量化工具包 AutoRound 的完整学习文档**
 >
-> 源码：[intel/auto-round](https://github.com/intel/auto-round) · Commit `09bc7437`  
+> 源码：[intel/auto-round](https://github.com/intel/auto-round)
 > 适合人群：**本科生 / 研究生**，从零开始理解 LLM 量化的算法与工程实现
 
 ---
@@ -182,7 +182,3 @@ print(tokenizer.decode(model.generate(**inputs, max_new_tokens=50)[0]))
 - [GPTQ 论文](https://arxiv.org/abs/2210.17323)
 - [Marlin Kernel](https://github.com/IST-DASLab/marlin)
 - [MXFP4 规格（微软）](https://arxiv.org/abs/2310.10537)
-
----
-
-*文档基于 commit `09bc7437`，Apache 2.0 协议。*
